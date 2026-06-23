@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+        <link rel="stylesheet" href="estilos/style.css" />
+    </head>
+    <body>
+        <main>
+            <section id="login">
+               
+                <div id="formulario">
+                    <h1>
+                       Login
+                    </h1>
+
+                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p> 
+
+                    <form action="login.php" method="post">
+                        <p>
+                            <label for="iemail">E-mail</label>
+                            <input class="bloco" type="email" id="iemail" required placeholder="seu e-mail">
+                        </p>
+
+                        <p>
+                            <label for="isen">Senha:</label>
+                            <input class="bloco" type="password" id="isen" required placeholder="sua senha" minlength="8">
+                        </p>
+
+                        <button class="bloco">Entrar</button>
+
+                        <button class="bloco">Esqueci a senha ✉️</button>
+                    </form>
+                </div>
+                 <div id="imagem">
+                    <img src="imagens/img-predio.jpg" alt="foto do predio">
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
