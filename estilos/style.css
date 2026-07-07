@@ -65,6 +65,8 @@ main {
     background-size: cover;
 }
 
+
+
 #formulario {
     display: block;
     padding: 10px;
@@ -77,4 +79,42 @@ h1 {
 
 p {
     font-size: 0.8em;
+}
+
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:  #575757;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #6f6f6f;
+}
+
+.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: rgb(195, 195, 195);
+    color: black;
+    border: 1px solid black;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: rgb(175, 175, 175);
+}
+
+.botao > i {
+    font-size: .8em;
 }
