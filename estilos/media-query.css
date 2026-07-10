@@ -2,16 +2,12 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background: linear-gradient(
-            to top,
-            rgb(193, 193, 193),
-            rgb(108, 108, 108),
-            rgb(51, 51, 51)
-        );
+        background: #5f2c82;
     }
 
     #login {
         width: 80vw;
+        height: 300px;
     }
 
     #imagem {
@@ -29,6 +25,7 @@
 @media screen and (min-width: 992px) {
     #login {
         width: 950px;
+        height: 30px;
     }
 
     #imagem {
@@ -47,6 +44,7 @@
     }
 
     p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
